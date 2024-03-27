@@ -6,11 +6,10 @@ const Book = ({book}) => {
 
     const navigate  = useNavigate(bookId);
     const handleDetails = () =>{
-        navigate(`/book/:${bookId}`)
+        navigate(`/book/${bookId}`)
     }
     return (
-        <div> 
-            {/* onClick={handleDetails(bookId)} */}
+        <div onClick={() => handleDetails(bookId)} className=" cursor-pointer">
             <div className="card card-compact h-full bg-base-100 shadow-xl">
             <figure><img src={image} alt="book" className="h-40"/></figure>
             <div className="card-body">

@@ -9,6 +9,7 @@ import About from './Components/About/About.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx'
 import ListedBooks from './Components/ListedBooks/ListedBooks.jsx'
+import BookDetails from './Components/BookDetails/BookDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -37,7 +38,9 @@ const router = createBrowserRouter([
         element:<Contact></Contact>
       },
       {
-        
+        path:'/book/:id',
+        element:<BookDetails></BookDetails>,
+        loader: () => fetch('data.json')
       }
     ]
   }
