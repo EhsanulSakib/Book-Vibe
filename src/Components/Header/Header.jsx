@@ -14,7 +14,7 @@ const Header = () => {
                     <button className="btn bg-[#23BE0A] text-white font-semibold mt-2 md:mt-4 lg:mt-8 text-xs md:text-sm lg:text-base" onClick={showList}>View The List</button>
                 </div>
                 <div className="right flex justify-end">
-                    <img src="/public/cover.png" alt="book" className="w-5/6 lg:w-full"/>
+                    <img src="/cover.png" alt="book" className="w-5/6 lg:w-full"/>
                 </div>
             </div>
         </div>

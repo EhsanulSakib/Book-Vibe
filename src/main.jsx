@@ -4,11 +4,11 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Root from './Components/Root/Root.jsx'
 import Home from './Components/Home/Home.jsx'
-import Books from './Components/Books/Books.jsx'
 import Read from './Components/Read/Read.jsx'
 import About from './Components/About/About.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx'
+import ListedBooks from './Components/ListedBooks/ListedBooks.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
         element:<Home></Home>
       },
       {
-        path:"/books",
-        element:<Books></Books>
+        path:"/listed-books",
+        element:<ListedBooks></ListedBooks>
       },
       {
         path:"/read",
@@ -35,6 +35,9 @@ const router = createBrowserRouter([
       {
         path:"/contact",
         element:<Contact></Contact>
+      },
+      {
+        
       }
     ]
   }

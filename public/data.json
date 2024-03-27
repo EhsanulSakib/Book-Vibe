@@ -20,7 +20,7 @@
       "review": "George Orwell's 1984 is a haunting portrayal of a dystopian society ruled by totalitarianism and surveillance. Set in a future where individuality is suppressed and dissent is punished, the novel follows Winston Smith, a low-ranking member of the ruling Party, as he rebels against the oppressive regime. Through Winston's journey of defiance and disillusionment, Orwell explores profound themes of freedom, truth, and the power of language. The omnipresent Big Brother, the Thought Police, and the concept of doublethink serve as chilling reminders of the dangers of unchecked authority and propaganda. As Winston grapples with the consequences of his rebellion, 1984 leaves readers questioning the nature of truth and the fragility of liberty in the face of tyranny.",
       "totalPages": 328,
       "rating": 4.7,
-      "categories": ["Science Fiction", "Political Satire"],
+      "categories": ["Science", "Political Satire"],
       "tags": ["Dystopian", "Social Commentary"],
       "publisher": "Secker & Warburg",
       "yearOfPublishing": 1949
@@ -33,7 +33,7 @@
       "review": "Jane Austen's Pride and Prejudice is a delightful romantic comedy that transcends time and remains a beloved classic. Set in early 19th-century England, the novel follows the spirited Elizabeth Bennet as she navigates the intricacies of society and love. When the proud and enigmatic Mr. Darcy enters her life, Elizabeth's prejudices are challenged, leading to a captivating dance of wit and misunderstanding. As the Bennet sisters navigate the pitfalls of courtship and matrimony, Austen skillfully explores themes of class, reputation, and the nature of true love. With its sparkling dialogue, vivid characters, and irresistible charm, Pride and Prejudice continues to enchant readers with its timeless portrayal of the human heart.",
       "totalPages": 432,
       "rating": 4.8,
-      "categories": ["Romance", "Classic Literature"],
+      "categories": ["Romance", "Classic"],
       "tags": ["Regency", "Humor"],
       "publisher": "T. Egerton, Whitehall",
       "yearOfPublishing": 1813
@@ -85,7 +85,7 @@
         "review": "J.K. Rowling's Harry Potter and the Philosopher's Stone marks the beginning of a magical journey into the wizarding world. Follow the young wizard Harry Potter as he discovers his true heritage and attends Hogwarts School of Witchcraft and Wizardry. Alongside his loyal friends Ron Weasley and Hermione Granger, Harry learns about the power of friendship, bravery, and the importance of standing up against evil. As Harry unravels the mystery surrounding the Sorcerer's Stone and confronts the dark wizard Voldemort, readers are transported to a realm of enchantment and adventure. With its whimsical charm, endearing characters, and captivating storyline, Harry Potter and the Philosopher's Stone captures the imagination and reminds us of the enduring magic of childhood.",
         "totalPages": 320,
         "rating": 4.7,
-        "categories": ["Fantasy", "Children's Literature"],
+        "categories": ["Fantasy", "Young Adult"],
         "tags": ["Magic", "Friendship"],
         "publisher": "Bloomsbury Publishing",
         "yearOfPublishing": 1997
