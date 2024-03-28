@@ -42,7 +42,8 @@ const router = createBrowserRouter([
       },
       {
         path:"/read",
-        element:<Read></Read>
+        element:<Read></Read>,
+        loader: () => fetch('/data.json')
       },
       {
         path:"/about",

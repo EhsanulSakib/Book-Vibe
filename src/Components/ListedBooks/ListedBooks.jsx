@@ -1,5 +1,5 @@
 import { AiOutlineDown } from "react-icons/ai";
-import { Link, Outlet, useLoaderData } from "react-router-dom";
+import { NavLink, Outlet, useLoaderData } from "react-router-dom";
 import { getStoredReadBooks, getStoredWishList } from "../../Utility/LocalStorage";
 import { useEffect, useState } from "react";
 
@@ -54,16 +54,16 @@ const ListedBooks = () => {
             setWishList(sortedRating2)
         }
         else if(flag === 1){
-            const sortedPages1 = list1.sort((a, b) => b.totalPages - a.totalPages);
-            const sortedPages2 = list2.sort((a, b) => b.totalPages - a.totalPages);
-            setReadBooks(books?.filter(book=> sortedPages1.includes(book.bookId)))
-            setWishList(books?.filter(book=> sortedPages2.includes(book.bookId)))
+            const sortedPages1 = readList.sort((a, b) => b.totalPages - a.totalPages);
+            const sortedPages2 = Wish.sort((a, b) => b.totalPages - a.totalPages);
+            setReadBooks(sortedPages1)
+            setWishList(sortedPages2)
         }
         else if(flag === 2){
-            const sortedYear1 = list1.sort((a, b) => b.yearOfPublishing - a.yearOfPublishing);
-            const sortedYear2 = list2.sort((a, b) => b.yearOfPublishing - a.yearOfPublishing);
-            setReadBooks(books?.filter(book=> sortedYear1.includes(book.bookId)))
-            setWishList(books?.filter(book=> sortedYear2.includes(book.bookId)))
+            const sortedYear1 = readList.sort((a, b) => b.yearOfPublishing - a.yearOfPublishing);
+            const sortedYear2 = Wish.sort((a, b) => b.yearOfPublishing - a.yearOfPublishing);
+            setReadBooks(sortedYear1)
+            setWishList(sortedYear2)
         }
     }
 
@@ -82,9 +82,10 @@ const ListedBooks = () => {
                 </details>
             </div>
 
-            <div className="flex gap-1 border-b">
-                <Link to='/listed-books'><p className="border p-2 rounded-md  active:border-b-white">Read Books</p></Link>
-                <Link to='/listed-books/wishlist'><p className="border p-2 rounded-md  active:border-b-white">Wishlist Books</p></Link>
+
+            <div className="nav flex gap-1 border-b">
+                <NavLink to='/listed-books'><p className="border p-2 rounded-md ">Read Books</p></NavLink>
+                <NavLink to='/listed-books/wishlist'><p className="border p-2 rounded-md ">Wishlist Books</p></NavLink>
             </div>
 
             <div>
