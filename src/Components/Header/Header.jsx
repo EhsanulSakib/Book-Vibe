@@ -4,7 +4,7 @@ import {useNavigate } from "react-router-dom";
 const Header = () => {
     const navigate = useNavigate();
     const showList = () =>{
-        navigate("/books");
+        navigate("/listed-books");
     }
     return (
         <div className="bg-[#1313130D] rounded-md my-4 lg:my-12">
