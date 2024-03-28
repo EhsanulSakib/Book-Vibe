@@ -2,7 +2,6 @@ import { AiOutlineDown } from "react-icons/ai";
 import { NavLink, Outlet, useLoaderData } from "react-router-dom";
 import { getStoredReadBooks, getStoredWishList } from "../../Utility/LocalStorage";
 import { useEffect, useState } from "react";
-
 const ListedBooks = () => {
     const books = useLoaderData();
 

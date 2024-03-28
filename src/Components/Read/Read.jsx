@@ -23,8 +23,6 @@ const Read = () => {
         }
     },[books])
 
-    const {bookName,totalPages} = readBooks;
-
     const data = readBooks?.map(book => {
         return{
             Name: book.bookName,
