@@ -13,9 +13,9 @@ const WishListBooks = () => {
             const wishListBooks = []
             for(const bookId of storedWishList){
                 const book = books.find(book => book.bookId === bookId);
-                console.log(book)
                 if(book){
                     wishListBooks.push(book)
+                    console.log(book)
                 }
             }
             setWishList(wishListBooks);
